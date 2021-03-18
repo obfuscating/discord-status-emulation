@@ -29,4 +29,5 @@ async def on_connect():
 
   await client.change_presence(activity = discord.Streaming(name = 'put something here', url = "https://twitch.tv/music"))
 
-client.run("your token", bot=False)
+client.run("your token", bot=False) # PUT YOUR TOKEN HERE OR IT WONT FUCKING WORK
+# if you dont want your token being held here, put it in a .env file and just call it from this file
